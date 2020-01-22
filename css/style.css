@@ -1,0 +1,42 @@
+body{
+background-image: url('../images/bg1.jpg');
+/* Faz imagem caber na tela */
+background-size: cover;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+text-align: center;
+color: white;
+}
+.profile{
+    border-radius: 50%;
+    width: 20%;
+    border: 5px solid white;
+}
+.text{
+    font-size: 20px;
+}
+.link{
+    text-decoration: none;
+        color: white;
+        font-size: 20px;
+}
+/* O hover é para quando acontece o mouse passar por cima */
+.link:hover{
+    text-decoration: none;
+        color: violet;
+        font-size: 20px;
+}
+space{
+    padding-right: 30px;
+    }
+.btn{
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    border-radius: .25rem;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    border-color: white;
+    text-decoration: white;
+    
+}
