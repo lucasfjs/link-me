@@ -48,3 +48,6 @@ header{
 .space-margin {
     margin-bottom: 15px;
 }
+p, h1, a, button{
+    font-family: 'Bowlby One SC', cursive;
+}
